@@ -1,0 +1,283 @@
+* {
+    font-family: Montserrat, sans-serif;
+    margin: 0px;
+}
+/* ///////////////////////////Header/////////////////////////// */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: #0d090a;
+}
+
+#ImgLogo {
+    cursor: pointer;
+    height: 120px;
+    width: 240px;
+}
+
+.HeaderNav li {
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    margin: 0 30px;
+}
+
+.HeaderNav li a {
+    text-decoration: none;
+    color: #fff;
+    transition: .5s all ease;
+}
+
+.HeaderNav li a:hover {
+    color: #e74c3c;
+    font-size: 20px;
+}
+
+#LoginButton {
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    cursor: pointer;
+    transition: .5s all ease-in-out;
+}
+
+#LoginButton:hover {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#SelectedLi{
+    color: #e74c3c;
+    font-size: 20px;
+}
+
+/* ///////////////////////////Main Image/////////////////////////// */
+
+.mainImage{
+    width: 100%;
+}
+
+.mainTextDiv{
+    position: absolute;
+    top: 300px;
+    right: 17%;
+    left: 17%;
+    bottom: 0;
+    color: white;
+}
+
+.mainText {
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.mainTextCaption {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#RegisterNowButton{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    color: #e74c3c;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .5s ease-in-out;
+}
+
+#RegisterNowButton:hover {
+    background-color: #e74c3c;
+    color: white;
+}
+
+/* ///////////////////////////Our Products Title/////////////////////////// */
+
+.h1Title{
+    background-color: #dddddd;
+    padding: 50px 170px;
+}
+
+.h1Title h2{
+    font-size: 50px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.RedLine{
+    height: 5px;
+    background-color: #e74c3c;
+}
+
+/* ///////////////////////////Products/////////////////////////// */
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 160px;
+}
+
+.row div{
+    transition: 0.5s all ease;
+}
+
+.row div:hover{
+    transform: scale(1.03);
+}
+
+.DeviceContent{
+    background-color: #dddddd;
+    padding: 20px 10px;
+    width: 300px;
+    height: 440px;
+    border-radius: 20px;
+}
+
+.DeviceName{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+.DeviceImg{
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+.OrderNowButton{
+    padding: 10px 25px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 260px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    transition: .5s all ease-in-out;
+}
+
+.OrderNowButton:hover{
+    background-color: #e74c3c;
+    color: white;
+}
+
+/* ///////////////////////////About/////////////////////////// */
+
+.AboutImg{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.AboutTd{
+    width: 950px;
+}
+
+.AboutCaption{
+    font-size: 25px;
+}
+
+/* ///////////////////////////Copyright/////////////////////////// */
+
+.Copyright{
+    padding: 20px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #0d090a;
+}
+
+.Copyright_a{
+    text-decoration: none;
+    color: white;
+    transition: all ease;
+}
+
+.Copyright_a:hover{
+    text-decoration: underline;
+}
+
+/* ///////////////////////////Login/////////////////////////// */
+
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	text-align: center;
+    font-size: 30px;
+}
+
+.container h2{
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: white;
+}
+
+.container form input{
+    width: 230px;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: none;
+    background-color: rgba(59, 65, 72,.3);
+    color: white;
+    border-radius: 5px;
+    transition: .5s all ease;
+}
+
+.container form input:hover{
+    background-color: #434a52;
+}
+
+.container form button{
+    height: 40px;
+    width: 230px;
+    border: none;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 5px;
+    transition: .5s all ease;
+}
+
+.container form button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.CopyrightOfLogin{
+    position:absolute;
+    bottom:0;
+    border-top: 5px #e74c3c solid;
+    width:100%;
+    padding: 10px 0px;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+/* ///////////////////////////Background Of Login/////////////////////////// */
+
+.Background{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #2c3338;
+}
